@@ -154,6 +154,22 @@ httpstatus/
     └── test_httpstatus.py
 ```
 
+## Contributing
+
+Issues and pull requests are welcome. To contribute:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b my-feature`).
+3. Make your changes and add or update tests as needed.
+4. Run `pytest tests/` and `ruff check httpstatus.py` to keep the suite green and clean.
+5. Open a pull request against `main`.
+
+For bugs, include the HTTP status code you were looking up and the output you expected versus what you got.
+
+## Source
+
+Repository: [https://github.com/eitanben-ami/httpstatus](https://github.com/eitanben-ami/httpstatus)
+
 ## Tags
 
 `http`, `status-codes`, `iana`, `cli`, `reference`, `developer-tools`, `python`, `api-debugging`
